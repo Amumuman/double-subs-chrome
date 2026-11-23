@@ -26,7 +26,25 @@ AI를 연결하지 않아도, 일본어·한국어 공식 자막이 모두 있�
 키는 내 브라우저에만 저장되고, 개발자에게 전송되지 않습니다.
 
 **ChatGPT 구독 (Windows)**
-ChatGPT 구독(Plus 등)으로 번역하려면 PC에 작은 도우미를 설치합니다. Codex 앱에 붙여 넣을 설치 안내는 곧 이곳에 추가됩니다.
+ChatGPT 구독(Plus 등)으로 번역하려면 PC에 작은 도우미를 한 번 설치합니다. 설치는 Codex 앱이 대신 해 줍니다.
+
+1. 공유받은 `두줄자막-도우미.zip`을 **다운로드** 폴더에 저장합니다.
+2. Codex 앱(ChatGPT 계정으로 로그인)을 열고 아래 문장을 그대로 붙여 넣어 보냅니다. 중간에 허락을 물으면 승인합니다.
+
+```
+다운로드 폴더의 "두줄자막-도우미.zip"으로 두줄자막 ChatGPT 도우미를 설치해 줘.
+1. zip을 %LOCALAPPDATA%\DujulJamak\helper 폴더에 풀어 줘. 이미 있으면 덮어써.
+2. Python 3.12 이상이 없으면 winget install -e --id Python.Python.3.12 로 설치해 줘.
+3. 그 폴더에서 python -m venv .local\siwc 를 만들고 .local\siwc\Scripts\python.exe -m pip install -r requirements-siwc.txt 를 실행해 줘.
+4. python server.py install-launcher 를 실행해서 Chrome이 도우미를 켤 수 있게 등록해 줘.
+5. powershell -ExecutionPolicy Bypass -File start.ps1 로 도우미를 켜고, 설정 페이지가 열리면 알려 줘.
+.local 폴더 안의 로그인 정보나 토큰 파일은 열거나 출력하지 마.
+```
+
+3. 열린 도우미 설정 페이지(또는 확장 아이콘 → **설정** → **ChatGPT 구독**)에서 **Continue with ChatGPT**를 누르고 내 ChatGPT 계정으로 승인합니다.
+4. [ChatGPT 사용량](https://chatgpt.com/settings/usage)에서 **앱 크레딧 사용이 꺼져 있는지** 확인하고, 설정 화면의 확인란을 체크합니다. (켜져 있으면 구독 한도를 넘었을 때 추가 요금이 나갈 수 있습니다.)
+
+한 번 설치하면 이후에는 확장 프로그램이 필요할 때 도우미를 알아서 켜고, 30분 동안 쓰지 않으면 스스로 꺼집니다.
 
 ## 쓰는 법
 
