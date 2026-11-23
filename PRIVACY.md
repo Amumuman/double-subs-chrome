@@ -1,10 +1,10 @@
-# Double Subs — 개인정보 처리방침 / Privacy Policy
+# 두줄자막 — 개인정보 처리방침 / Privacy Policy
 
 최종 수정 / Last updated: 2026-11-23
 
 ## 한국어
 
-Double Subs는 Netflix 자막을 두 언어로 보여 주고 AI로 번역·설명해 주는 무료 Chrome 확장 프로그램입니다. 개발자는 별도의 서버를 운영하지 않으며, 사용자의 정보를 수집·저장·판매하지 않습니다.
+두줄자막은 Netflix 자막을 두 언어로 보여 주고 AI로 번역·설명해 주는 무료 Chrome 확장 프로그램입니다. 개발자는 별도의 서버를 운영하지 않으며, 사용자의 정보를 수집·저장·판매하지 않습니다.
 
 **확장 프로그램이 다루는 정보**
 - **자막 텍스트:** 지금 보는 Netflix 작품의 공식 자막을 읽어 화면에 표시합니다. AI 번역, 단어 뜻, '자세히' 설명을 쓰면 작품 제목과 자막 문장이 **사용자가 직접 연결한 AI 제공자**에게 전송됩니다. 번역 품질을 위해 앞뒤 문맥이나 회차 전체 대본이 함께 전송될 수 있으며, 사용자가 불러온 자막 파일도 같은 방식으로 처리됩니다. 여러 제공자를 연결했다면 속도나 장애에 따라 연결된 제공자 중 하나가 자동으로 쓰일 수 있습니다.
@@ -25,7 +25,7 @@ Double Subs는 Netflix 자막을 두 언어로 보여 주고 AI로 번역·설�
 
 ## English
 
-Double Subs is a free Chrome extension that shows Netflix subtitles in two languages and translates or explains them with AI. The developer runs no server and does not collect, store or sell user data.
+두줄자막 (Dujul Jamak) is a free Chrome extension that shows Netflix subtitles in two languages and translates or explains them with AI. The developer runs no server and does not collect, store or sell user data.
 
 - **Subtitle text** of the Netflix title being watched is read to display it. When AI translation, word glosses or explanations are used, the title and subtitle lines are sent to **the AI provider the user connected** (Google Gemini API, Anthropic Claude API, OpenAI API, or the user's own ChatGPT plan through a local helper on the user's PC). Nearby context or the whole episode script may be included for translation quality, and subtitle files the user loads are handled the same way. If several are connected, any connected provider may be used depending on speed or failures. Providers may briefly cache requests (e.g. Gemini context cache, about 5 minutes).
 - **Tab audio** is sent to the user's chosen speech-recognition provider only after the user starts speech-recognized subtitles, possibly with that scene's official subtitle lines for accuracy.
